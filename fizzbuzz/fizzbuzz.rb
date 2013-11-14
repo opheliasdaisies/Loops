@@ -1,5 +1,5 @@
-100.times do |x|
-	i = x+1
+101.times do |i|
+	next if i == 0
 	if i % 15 == 0
 		puts "fizzbuzz"
 	elsif i % 3 == 0
